@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.main__div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  background-color: bisque;
+  padding: 1.6rem;
+  margin: auto;
+  margin-top: 12%;
+  border-radius: 10px;
+}
+
+.main__head{
+  margin-bottom: 1.2rem;
+}
+
+.main__content{
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  flex-grow: 1;
+  padding: 1.2rem;
+}
+
+.main__content input,button{
+  padding:0.4rem;
+}
+
+.main__content,button{
+  border: none;
+  color: white;
+}
+
+.add__task{
+  background-color: green;
+  cursor: pointer;
+}
+
+.delete__task{
+  background-color: orange;
+  cursor: pointer;
+}
+
+.text__input{
+  border: none;
+  border-radius: 5px;
+}
+
+#status{
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+
+
